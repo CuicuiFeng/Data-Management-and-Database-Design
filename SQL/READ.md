@@ -25,7 +25,7 @@ dataset from Kaggle
 #vote_count #Total number of votes movie received
 
 #Below are the columns in the tmdb_5000_credits dataset:
-*movie_id #Id of the movie
-*title #Movie title
-*Cast #Cast of the movie
-*crew #Crew of the movie
+* movie_id #Id of the movie
+* title #Movie title
+* Cast #Cast of the movie
+* crew #Crew of the movie
