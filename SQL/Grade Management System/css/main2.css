@@ -1,0 +1,244 @@
+
+body{
+	margin: 0 auto;
+	background-color: #E0E0E0;
+}
+#head
+{
+	height: 45px;
+	width: 100%;
+    color:white;
+	background:url("../img/head.gif");
+	border-top: inset #FF0000 ;
+	position: relative;
+	margin-bottom: 2px;
+}
+#head img{
+	height: 40px;
+	width: 35px;
+	margin: 3px 0px 2px 150px ;
+}
+#head span{
+	font-size: 1.5em;
+	position: relative;
+	top:-12px;
+}
+#head div{
+	display: inline;
+}
+#info{
+	position: relative;
+	left: 30%;
+	top:-15px;
+}
+#name{
+	border-right: inset #3D3D3D;
+}
+#log_off{
+	border-right: inset #3D3D3D;
+	margin-left:10px;
+	padding-right:10px;  
+}
+#background{
+	background:url("../img/EMMA2.jpg");
+    background-size: cover; 
+	margin: 0 15%;
+	width: 70%;
+	height: 100%;
+	position: fixed;
+	overflow: scroll;
+}
+#navigation{
+	width: 180px;
+	height: 100%;
+	position: fixed;
+	font-size: 1.3em;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    font-weight: bold;
+	margin-top: 0px; 
+	border-right: solid;
+    margin: 0;
+  overflow: hidden;
+  }
+
+#nowtime{
+	position: relative;
+	top: -12px;
+	left:  200px;
+}
+
+#textArea{
+	position: absolute;
+	width:72%;
+	height: 300%;
+	top: 10%;
+	left: 22%;
+	color:white;
+}
+
+#textArea2{
+	position: absolute;
+	width: 72%;
+	height: 300%;
+	top: 10%;
+	left: 22%;
+	background-color:#000000;
+	opacity: 0.2;
+	border-radius:7px;
+}
+
+#button1{
+        position: absolute;
+        font:bold;
+        font-size:200px;
+        top:50px;
+        left:0px;
+    }
+
+#button2{
+        position: absolute;
+        top:140px;
+        left:0px;
+    }
+
+#button3{
+        position: absolute;
+        top:230px;
+        left:0px;
+    }
+    
+#button4{
+        position: absolute;
+        top:320px;
+        left:0px;
+    }
+    
+#button5{
+        position: absolute;
+        top:410px;
+        left:0px;
+    }
+    
+#button6{
+        position: absolute;
+        top:500px;
+        left:0px;
+    }
+/* mybutton */
+#mybutton{
+    width: 150px;
+	height: 100%;
+	position: fixed;
+	font-size: 1.3em;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    font-weight: bold;
+	margin-top: 0px; 
+	border-right: solid;
+    margin: 0;
+    overflow: hidden; 
+}
+
+#mybutton div{    
+    margin-bottom: 30px; 
+	color: #000000;
+	width: 150px;
+	height: 40px;
+	background-color: rgba(70,130,180,0.8);
+	text-align: center;
+	padding-top: 15px; 
+    -webkit-transition: border-color 0.4s, color 0.4s;
+	transition: border-color 0.4s, color 0.4s;
+}
+
+#mybutton div::before {
+	content: '';
+	position: absolute;
+    margin-top:-15px;
+	left: 0;
+	width: 100%;
+	height: 55px;
+	background: #000000;
+	z-index: -1;
+	opacity: 0;
+	-webkit-transform: scale3d(0.7, 1, 1);
+	transform: scale3d(0.7, 1, 1);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+#mybutton div.button--round-s::before {
+	border-radius: 2px;
+}
+#mybutton div.button--inverted::before {
+	background: #7986CB;
+}
+#mybutton div,
+#mybutton div::before {
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+#mybutton div:hover {
+	color: #fff;
+	border-color: #37474f;
+}
+#mybutton div.button--inverted:hover {
+	color: #37474F;
+	border-color: #fff;
+}
+#mybutton div:hover::before {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+/* bmenu */
+#bmenu{
+    width: 150px;
+	height: 100%;
+	position: fixed;
+	font-size: 1.3em;
+    text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+    font-weight: bold;
+	margin-top: 0px; 
+	border-right: solid;
+    margin: 0;
+    overflow: hidden; 
+}
+
+#bmenu div{
+    margin-bottom: 30px; 
+	color: #000000;
+	width: 150px;
+	height: 40px;
+	background-color: rgba(70,130,180,0.8);
+	text-align: center;
+	padding-top: 15px; 
+    -webkit-transition: border-color 0.4s, color 0.4s;
+	transition: border-color 0.4s, color 0.4s;
+}
+
+#bmenu div li{
+    font-size: 50px;
+    display: block;
+}
+#bmenu div li a{
+	color: transparent;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 15px #fff;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#bmenu div :hover li a{
+	text-shadow: 0px 0px 15px #3E0424;
+}
+#bmenu div li a:hover{
+	color: #fff;
+	text-shadow: 0px 0px 1px #fff;
+	padding-left: 10px;
+}

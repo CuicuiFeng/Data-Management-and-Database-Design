@@ -1,0 +1,1 @@
+<div id = "idcode"><input type="text" name="captcha_code" id="identify" placeholder="验证码">&nbsp;<a href="javascript: refreshCaptcha();" ><img  src="captcha.php?rand=<?php echo rand();?>" id='captchaimg' /></a></div>
